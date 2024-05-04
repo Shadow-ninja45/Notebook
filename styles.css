@@ -1,0 +1,82 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fafbfc;
+    color: #3d3d3d;
+    padding-top: 20px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+}
+
+.search-bar {
+    border: 2px solid #6c757d;
+    border-radius: 8px;
+    padding: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 15px;
+}
+
+.search-bar:focus {
+    border-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.note-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.note-form .form-control {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.note-form button {
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.note-form button:hover {
+    background-color: #0056b3;
+}
+
+.note-card {
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    transition: box-shadow 0.3s, background-color 0.3s;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-card:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.delete-note-btn {
+    background-color: #dc3545;
+    border-radius: 8px;
+    color: #fff;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.delete-note-btn:hover {
+    background-color: #bd2130;
+}
+
+.counters .badge {
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
