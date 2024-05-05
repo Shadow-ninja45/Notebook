@@ -1,5 +1,5 @@
 
-const crudCrudBaseUrl = 'https://crudcrud.com/api/f035900ebcef4723bb4d0b28e5a2dd3d';
+const crudCrudBaseUrl = 'https://crudcrud.com/api/b300e8580cbd47eaa47174e14090bbfc';
 
 let totalNotes = 0;
 let showingNotes = 0;
